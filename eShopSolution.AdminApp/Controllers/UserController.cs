@@ -57,7 +57,6 @@ namespace eShopSolution.AdminApp.Controllers
             return View(result.ResultObj);
         }
 
-
         [HttpGet]
         public IActionResult Create()
         {
